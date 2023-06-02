@@ -1,0 +1,16 @@
+.assortment{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 157px;
+}
+.assortment__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+.assortment__item{
+    max-width: 332px;
+}
+.assortment__img{
+    max-width: 380px;
+}

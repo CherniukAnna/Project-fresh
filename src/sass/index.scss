@@ -1,2 +1,14 @@
 @import './common';
-@import './example';
+@import './abstracts/mixins.scss';
+@import './abstracts/variable.scss';
+
+@import './base/animation.scss';
+@import './base/base.scss';
+@import './base/typography';
+
+@import './layout/header.scss';
+
+@import './components/section-1.scss';
+@import './components/section-2.scss';
+
+@import './pages/home.scss';

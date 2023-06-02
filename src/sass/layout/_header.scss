@@ -1,0 +1,19 @@
+.nav__block{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 112px;
+}
+.nav__list{
+    display: flex;
+    gap: 30px;
+}
+.nav__link{
+    font-size: 18px;
+    line-height: 22px;
+    color: $main-color;
+}
+.nav__logo{
+    max-width: 224px;
+    height: 73px;
+}
