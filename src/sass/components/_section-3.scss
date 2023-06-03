@@ -1,0 +1,70 @@
+.section__subscribe{
+    background-image: url(../images/section-3/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+.subscribe__block{
+    display: flex;
+    flex-direction: column;
+    padding-top: 260px;
+    padding-left: 600px;
+}
+.subscribe__form{
+    display: flex;
+    gap: 26px;
+}
+.subscribe__input{
+    border: 3px solid #FEE9EF;
+    border-radius: 5px;
+    background: $white-color;
+    width: 320px;
+    height: 50px;
+    transition: all .6s;
+}
+.subscribe__input::placeholder{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color:$text-color;
+    padding-left: 20px;
+}
+.subscribe__input:hover{
+    transform: scale(1.1);
+    box-shadow: $box-shadow;
+}
+.subscribe__input:focus{
+    transform: scale(1.1);
+    box-shadow: $box-shadow;
+}
+.subscribe__input:hover::placeholder{
+    font-weight: 700;
+}
+.subscribe__btn{
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: $white-color;
+    background: $pink-color-dark;
+    border-radius: 5px;
+    width: 188px;
+    height: 50px;
+    transition: all .6s;
+    
+}
+.subscribe__btn:hover{
+    background:$blue-color;
+    transform: scale(1.2);
+    box-shadow: $box-shadow;
+    color:$pink-color-light;
+    
+}
+.subscribe__btn:focus{
+    background:$blue-color;
+    transform: scale(1.2);
+    box-shadow: $box-shadow;
+    color:$pink-color-light;
+    
+}

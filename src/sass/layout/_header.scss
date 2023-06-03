@@ -1,6 +1,6 @@
 .nav__block{
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 112px;
 }
@@ -13,7 +13,102 @@
     line-height: 22px;
     color: $main-color;
 }
+.nav__link:hover{
+    color:$pink-color-dark;
+}
+.nav__link:focus{
+    color:$pink-color-dark;
+}
 .nav__logo{
     max-width: 224px;
     height: 73px;
+}
+.header__block{
+    position: relative;
+}
+// .header__img{
+//     min-width: 100%;
+//     margin-left: 520px
+// }
+.detox__block{
+    position: absolute;
+    bottom: 620px;
+    left: 430px;
+}
+.detox__text{
+    position: absolute;
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 260px;
+    line-height: 430px;
+    letter-spacing: 1.7;
+    color:$white-color;
+    z-index: 3;
+
+}
+.detox__text::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    background-color: $green-light;
+    top: 80px;
+    left: -50px;
+    
+
+}
+.detox__text::before{
+    content: "solution";
+    display: block;
+    position: absolute;
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 99px;
+    letter-spacing: 10px;
+    color:$main-color;
+    bottom: 40px;
+    right: -50px;
+
+}
+.fresh__block{
+    position: absolute;
+    top: 80px;
+    right: 520px;
+}
+.fresh__text{
+    position: relative;
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 170px;
+    line-height: 1.7;
+    color: $pink-color-light;
+    z-index: 3;
+}
+.fresh__text::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #FEE9EF;
+    top: 15px;
+    left: 50px;
+}
+.fresh__text::before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: $green-light;
+    bottom: -110px;
+    left: 180px;
 }
