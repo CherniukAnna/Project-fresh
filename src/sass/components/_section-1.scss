@@ -1,8 +1,20 @@
+.assortment-wraper{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    z-index: -1;
+    width: 100%;
+
+}
 .assortment{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 157px;
+    z-index: 2;
+    position: relative;
+    background: #E5E5E5
+    // flex-basis: 1130px;
 }
 .assortment__list{
     display: flex;

@@ -1,16 +1,19 @@
 .section__subscribe{
-    background-image: url(../images/section-3/background.png);
+    background-image: url(../images/section-3/background-yellow.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 85vh;
+    
 }
-.subscribe__block{
+.subscribe-wraper{
     display: flex;
-    flex-direction: column;
-    padding-top: 260px;
-    padding-left: 600px;
+    justify-content: space-between;
+    align-items: center;
 }
+.subscribe{
+    padding-bottom: 200px;
+}
+
 .subscribe__form{
     display: flex;
     gap: 26px;

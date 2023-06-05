@@ -1,3 +1,7 @@
+.blog{
+    margin-bottom: 82px;
+}
+
 .blog__wraper{
     text-align: center;
     margin-bottom: 37px;
@@ -37,6 +41,9 @@
     margin-bottom: 25px;
     text-align: center;
     padding: 5px;
+    &.-blue{
+        background:$blue-color;
+    }
 }
 .blog__text{
     font-weight: 500;

@@ -1,3 +1,7 @@
+
+.header{
+    position: relative;
+}
 .nav__block{
     display: flex;
     justify-content: space-around;
@@ -23,17 +27,23 @@
     max-width: 224px;
     height: 73px;
 }
-.header__block{
-    position: relative;
-}
-// .header__img{
-//     min-width: 100%;
-//     margin-left: 520px
+// .header__block{
+//     position: relative;
 // }
+.header__block{
+    display: flex;
+    padding-left: max(15px, calc((100% - 1180px)/2))
+}
+.left{
+    flex-shrink: 0;
+}
+.right{
+    width: calc(100% + 370px);
+}
 .detox__block{
     position: absolute;
-    bottom: 620px;
-    left: 430px;
+    bottom: 600px;
+    left: 200px;
 }
 .detox__text{
     position: absolute;
@@ -57,6 +67,7 @@
     background-color: $green-light;
     top: 80px;
     left: -50px;
+    z-index: -1;
     
 
 }
@@ -77,8 +88,8 @@
 }
 .fresh__block{
     position: absolute;
-    top: 80px;
-    right: 520px;
+    top: 280px;
+    right: 400px
 }
 .fresh__text{
     position: relative;
