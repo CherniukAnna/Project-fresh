@@ -1,125 +1,51 @@
 
-.header{
+  .header__burger-btn {
     position: relative;
-}
-.nav__block{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 112px;
-}
-.nav__list{
-    display: flex;
-    gap: 30px;
-}
-.nav__link{
-    font-size: 18px;
-    line-height: 22px;
-    color: $main-color;
-}
-.nav__link:hover{
-    color:$pink-color-dark;
-}
-.nav__link:focus{
-    color:$pink-color-dark;
-}
-.nav__logo{
-    max-width: 224px;
-    height: 73px;
-}
-// .header__block{
-//     position: relative;
-// }
-.header__block{
-    display: flex;
-    padding-left: max(15px, calc((100% - 1180px)/2))
-}
-.left{
-    flex-shrink: 0;
-}
-.right{
-    width: calc(100% + 370px);
-}
-.detox__block{
-    position: absolute;
-    bottom: 600px;
-    left: 200px;
-}
-.detox__text{
-    position: absolute;
-    font-family: 'Waiting for the Sunrise';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 260px;
-    line-height: 430px;
-    letter-spacing: 1.7;
-    color:$white-color;
+    width: 80px;
+    height: 80px;
+    border: 3px solid $blue-color;
+    border-radius: 50%;
+    background-color: transparent;
     z-index: 3;
+  }
+  .burger__svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    fill: $pink-color-dark;
+  }
 
-}
-.detox__text::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 139px;
-    height: 139px;
-    border-radius: 50%;
-    background-color: $green-light;
-    top: 80px;
-    left: -50px;
-    z-index: -1;
-    
 
-}
-.detox__text::before{
-    content: "solution";
-    display: block;
-    position: absolute;
-    font-family: 'Waiting for the Sunrise';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 60px;
-    line-height: 99px;
-    letter-spacing: 10px;
-    color:$main-color;
-    bottom: 40px;
-    right: -50px;
 
+.header {
+  position: relative;
 }
-.fresh__block{
-    position: absolute;
-    top: 280px;
-    right: 400px
+.nav__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 112px;
+  
 }
-.fresh__text{
-    position: relative;
-    font-family: 'Waiting for the Sunrise';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 170px;
-    line-height: 1.7;
-    color: $pink-color-light;
-    z-index: 3;
+.nav__list {
+  display: flex;
+  gap: 30px;
+  
 }
-.fresh__text::after{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-color: #FEE9EF;
-    top: 15px;
-    left: 50px;
+.nav__link {
+  font-size: 18px;
+  line-height: 22px;
+  color: $main-color;
 }
-.fresh__text::before{
-    content: "";
-    display: block;
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    background-color: $green-light;
-    bottom: -110px;
-    left: 180px;
+.nav__link:hover {
+  color: $pink-color-dark;
+}
+.nav__link:focus {
+  color: $pink-color-dark;
+}
+.nav__logo {
+  max-width: 224px;
+  height: 73px;
 }
