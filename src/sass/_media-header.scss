@@ -42,10 +42,18 @@
     padding: 0 15px;
   }
   //burger
+  .hover{
+    z-index: 4;
+    position: relative;
+    background: white;
+    padding: 15px 15px;
+    margin-top: -20px;
+  }
   .header__burger-btn {
     display: flex;
     margin-left: auto;
     margin-bottom: 40px;
+    margin-top: 15px;
 
     position: relative;
     width: 60px;
@@ -121,5 +129,6 @@
     top: 40px;
     left: 15px;
     max-width: 30%;
+    z-index: 5;
   }
 }
