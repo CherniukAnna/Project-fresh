@@ -91,6 +91,7 @@
 }
 .footer-bottom__svg{
     fill:$green-light;
+    transition: all .4s;
 }
 .footer-bottom__svg:hover{
     fill: $blue-color;

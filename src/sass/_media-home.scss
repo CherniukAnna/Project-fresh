@@ -1,0 +1,201 @@
+@media (max-width: 1600px) {
+  // hero
+  .detox__block {
+    position: absolute;
+    bottom: 65%;
+    left: 2%;
+  }
+
+  // section -1
+
+  .assortment-wraper {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 0 15px;
+  }
+  // hero
+  .hero__block {
+    margin-top: -90px;
+    margin-bottom: 20px;
+  }
+  .detox__text {
+    font-size: 220px;
+    line-height: 380px;
+    letter-spacing: 1.7;
+  }
+  .detox__text::after {
+    width: 100px;
+    height: 100px;
+  }
+  .detox__text::before {
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 8px;
+  }
+  .fresh__text {
+    font-size: 140px;
+    line-height: 1.4;
+  }
+  .fresh__text::after {
+    width: 90px;
+    height: 90px;
+  }
+  .fresh__text::before {
+    width: 180px;
+    height: 180px;
+  }
+
+  // section -1
+  .assortment {
+    margin-bottom: 90px;
+  }
+}
+@media (max-width: 900px) {
+  .container {
+    padding: 0 15px;
+  }
+  // hero
+
+  .detox__text {
+    font-size: 180px;
+    line-height: 320px;
+    letter-spacing: 1.4;
+  }
+  .detox__text::after {
+    width: 80px;
+    height: 80px;
+  }
+  .detox__text::before {
+    font-size: 32px;
+    line-height: 1.4;
+    letter-spacing: 6px;
+  }
+  .fresh__block {
+    position: absolute;
+    top: 10%;
+    right: 20%;
+  }
+  .fresh__text {
+    font-size: 100px;
+    line-height: 1.2;
+  }
+  .fresh__text::after {
+    width: 70px;
+    height: 70px;
+  }
+  .fresh__text::before {
+    bottom: -90px;
+    left: 110px;
+    width: 120px;
+    height: 120px;
+  }
+
+  // section -1
+  .assortment {
+    z-index: 0;
+    background: transparent;
+    margin-bottom: 60px;
+  }
+  .assortment__list {
+    row-gap: 30px;
+  }
+  .assortment__item {
+    max-width: 300px;
+  }
+
+  //section-3
+
+  .subscribe {
+    max-width: 40%;
+  }
+  .subscribe__block {
+    max-width: 60%;
+  }
+  .subscribe__btn{
+    
+    font-size: 16px;
+    line-height: 1.1;
+    width: 110px;
+    padding: 10px 18px;
+}
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  // hero
+  .hero__block {
+    padding-left: 0;
+  }
+  .left {
+    flex-shrink: 0;
+  }
+  .detox__block {
+    display: none;
+  }
+  .fresh__block {
+    display: none;
+  }
+
+  // section -1
+
+  .assortment {
+    flex-direction: column;
+  }
+  .assortment__item {
+    max-width: 420px;
+    text-align: center;
+  }
+  .assortment__img {
+    max-width: 380px;
+  }
+
+  // section-2
+  .smoothies__block {
+    margin-bottom: 40px;
+  }
+  // section-3
+  .section__subscribe{
+    padding-bottom: 100px;
+  }
+  .subscribe-wraper{
+    flex-direction: column;
+  }
+  .subscribe__block {
+    max-width: 100%;
+    margin-top: -200px;
+
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  // hero
+  .hero__block {
+    margin-top: -700px;
+  }
+
+  // section -1
+
+  //section-3
+  .subscribe__form{
+    gap: 12px;
+  }
+  .subscribe__input{
+    max-width: 200px;
+    height: 40px;
+  }
+  .subscribe__btn{
+    max-width: 80px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.1;
+    padding: 4px 6px;
+  }
+}

@@ -1,5 +1,6 @@
 
 .hero__block{
+    position: relative;
     display: flex;
     padding-left: max(15px, calc((100% - 1180px)/2))
 }
@@ -11,8 +12,8 @@
 }
 .detox__block{
     position: absolute;
-    bottom: 600px;
-    left: 200px;
+    bottom: 60%;
+    left: 8%;
 }
 .detox__text{
     position: absolute;
@@ -48,7 +49,7 @@
     font-style: normal;
     font-weight: 300;
     font-size: 60px;
-    line-height: 99px;
+    line-height: 1.7;
     letter-spacing: 10px;
     color:$main-color;
     bottom: 40px;
@@ -57,8 +58,8 @@
 }
 .fresh__block{
     position: absolute;
-    top: 280px;
-    right: 400px
+    top: 5%;
+    right: 20%;
 }
 .fresh__text{
     position: relative;
@@ -80,6 +81,7 @@
     background-color: #FEE9EF;
     top: 15px;
     left: 50px;
+    z-index: -1;
 }
 .fresh__text::before{
     content: "";
@@ -91,4 +93,5 @@
     background-color: $green-light;
     bottom: -110px;
     left: 180px;
+    z-index: -1;
 }

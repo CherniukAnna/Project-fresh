@@ -1,6 +1,17 @@
 <header>
     <div class="container">
         <nav class="nav__block">
+            <button class="header__burger-btn" id="burger">
+                <svg class="burger__svg br">
+                    <use href="./images/header/symbol-burger.svg#icon-burger"></use>
+                </svg>
+                <svg class="burger__svg close">
+                    <use href="./images/header/symbol-burger.svg#icon-close"></use>
+                </svg>
+            </button>
+
+
+
             <ul class="nav__list">
                 <li class="nav__item">
                     <a href="#" class="nav__link">Home</a>
@@ -15,7 +26,7 @@
             <div class="nav__logo">
                 <img src="./images/header/logo.png" alt="logo" class="nav__logo-img">
             </div>
-            <ul class="nav__list">
+            <ul class="nav__list -top">
                 <li class="nav__item">
                     <a href="#" class="nav__link">Menu</a>
                 </li>
@@ -26,13 +37,6 @@
                     <a href="#" class="nav__link">Contact</a>
                 </li>
             </ul>
-
-            <button class="header__burger-btn" id="burger">
-                <svg class="burger__svg"><use href="./images/header/symbol-burger.svg#icon-burger"></use></svg>
-                <svg class="burger__svg">
-                    <use href="./images/header/symbol-burger.svg#icon-close"></use>
-                </svg>
-            </button>
 
         </nav>
     </div>

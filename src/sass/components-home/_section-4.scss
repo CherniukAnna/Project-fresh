@@ -1,6 +1,14 @@
 .blog{
     margin-bottom: 82px;
 }
+.blog-accent{
+    z-index: -1;
+    width: 100%;
+    justify-content: flex-end;
+    display: flex;
+    position: absolute;
+    margin-top: 380px;
+}
 
 .blog__wraper{
     text-align: center;
@@ -72,11 +80,7 @@
 }
 .info__link:hover{
     color: $blue-color;
-    font-size: 20px;
-    transform: translateY(-.4rem);
 }
 .info__link:focus{
     color: $blue-color;
-    font-size: 20px;
-    transform: translateY(-.4rem);
 }

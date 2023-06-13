@@ -1,0 +1,125 @@
+@media (max-width: 1200px) {
+}
+@media (max-width: 900px) {
+  .nav__block {
+    display: flex;
+    padding-top: 30px;
+  }
+  .nav__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav__logo {
+    max-width: 164px;
+    height: 53px;
+  }
+}
+@media (max-width: 768px) {
+  .nav__block {
+    display: flex;
+    padding-top: 20px;
+  }
+  .nav__list {
+    display: flex;
+    gap: 12px;
+  }
+  .nav__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  padding: 8px;
+  transition: all .4s;
+}
+
+  .nav__logo {
+    max-width: 124px;
+    height: 33px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
+  //burger
+  .header__burger-btn {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 40px;
+
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border: 2px solid $blue-color;
+    box-shadow: 0px 0px 2px 2px #9ae9f2fc;
+    border-radius: 50%;
+    background-color: transparent;
+    z-index: 3;
+  }
+  .burger__svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    fill: $pink-color-light;
+  }
+
+  .nav__block .header__burger-btn .close {
+    opacity: 0;
+  }
+  .nav__block .header__burger-btn .br {
+    opacity: 1;
+  }
+  .nav__block.open .header__burger-btn .br {
+    opacity: 0;
+  }
+  .nav__block.open .header__burger-btn .close {
+    opacity: 1;
+  }
+  // menu
+
+  .nav__block {
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  .nav__list {
+    gap: 0px;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+    transform: translateY(-280%);
+    z-index: 1;
+    width: 100%;
+    background-color: $blue-color;
+    transition: transform 0.7s;
+    z-index: 2;
+    &.-top {
+      margin-top: -2px;
+      padding-bottom: 25px;
+    }
+  }
+  .nav__block.open .nav__list {
+    transform: translateY(0);
+  }
+  .nav__item {
+    padding-top: 25px;
+  }
+
+  .nav__link {
+    padding: 15px 80px 15px 30px;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 2;
+    color: $pink-color-light;
+    text-shadow: 5px 3px 5px rgb(27, 26, 26);
+  }
+  .nav__logo {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    max-width: 30%;
+  }
+}
